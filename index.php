@@ -15,7 +15,7 @@
 	</head>
 	<body>
 		<div id="dialog" title="Test">
-			<p>Test</p>
+			<p>Test <br /> test</p>
 		</div>
 	</body>
 </html>
