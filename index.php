@@ -19,6 +19,7 @@
 	<body>
 		<div id="dialog" title="Test">
 			<p>Test <br /> test</p> <?php echo password_crypt('test', md5('g56h4sgr5h4sfg56h4h56d4gh56')); ?>
+			<br /> <?php echo '<img src = "'.get_favicon('mail.google.com').'" />' ?>
 		</div>
 	</body>
 </html>

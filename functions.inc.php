@@ -26,4 +26,10 @@ function password_crypt($password, $salt)
 	return $third_pass;
 }
 
+function get_favicon($url)
+{
+	$icon = "http://".$url."/favicon.ico";
+	return $icon;
+}
+
 ?>
